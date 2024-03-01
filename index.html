@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NDS</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="home">
+        <header>
+            <div class="nds-icon">
+
+                <a href="#">NDS</a>
+            </div>
+            <div class="hamburger">
+                <i class="ri-menu-fill"></i>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#servicePge">Service</a></li>
+                    <li><a href="#aboutPge">About</a></li>
+                    <li><a href="#contactPge">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="left-container">
+                <div class="social-media">
+                    <i id="yt" class="ri-youtube-line"></i>
+                    <i id="insta" class="ri-instagram-line"></i>
+                    <i id="fb" class="ri-facebook-circle-line"></i>
+                    <i id="wts" class="ri-whatsapp-line"></i>
+                </div>
+            </div>
+            <div class="right-container">
+
+                <h1 class="animation-elem">Let me <span>capture</span><br>your unique <span>love story.</span></h1>
+
+                <div class="nds-mark">
+                    <div class="line1"></div>
+                    <p>NIGHT DREAM STUDIO</p>
+                    <div class="line2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service Page -->
+    <section class="service" id="servicePge">
+        <div class="service-gap"></div>
+        <div class="photo">
+            <div class="left-photobox">
+                <div class="photo-hover1">
+                    <span>Photography</span>
+                </div>
+            </div>
+            <div class="right-photobox">
+                <h1>Photography</h1>
+                <p>Immerse yourself in a timeless love story through our exquisite wedding photography services. We
+                    specialize in capturing the magic of your special day, from the tender glances to the joyous
+                    celebrations. With a keen eye for detail and a passion for preserving precious moments, our team of
+                    skilled photographers ensures that every nuance is beautifully documented, creating a cherished
+                    collection of memories that will last a lifetime. Trust us to transform your wedding day into a
+                    visual masterpiece, filled with emotions, romance, and the enchanting beauty of your unique love
+                    story."</p>
+            </div>
+        </div>
+        <div class="video">
+            <div class="left-videobox">
+                <h1>Videography</h1>
+                <p>Step into the spotlight of your love story with our expert wedding video services. We specialize in
+                    crafting cinematic masterpieces that immortalize the essence of your special day. From the intimate
+                    vows to the grand celebrations, our skilled videographers artfully capture every emotion, ensuring
+                    that your wedding day unfolds like a beautifully scripted movie. With attention to detail and a
+                    commitment to storytelling, we transform moments into memories, creating a timeless visual narrative
+                    that allows you to relive the magic for years to come.</p>
+            </div>
+
+            <div class="right-videobox">
+                <div class="video-hover">
+                    <span>Videography</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="drone">
+            <div class="left-dronebox">
+                <div class="drone-hover">
+                    <span>DroneShoot</span>
+                </div>
+            </div>
+
+            <div class="right-dronebox">
+                <h1>Drone-Shoot</h1>
+                <p>"Elevate your wedding experience with our cutting-edge drone services that redefine the art of
+                    capturing moments. Our skilled drone pilots take your wedding visuals to new heights, providing
+                    breathtaking aerial perspectives that add a touch of cinematic grandeur to your special day. From
+                    sweeping shots of picturesque landscapes to dynamic overhead views of your celebration, our drone
+                    services bring a unique and immersive dimension to your wedding video. Let us soar above and beyond,
+                    ensuring that every detail, every location, and every joyous moment is captured from a perspective
+                    as extraordinary as your love. </p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr style="height:2px;border-width:0;color:rgb(249, 248, 248);background-color:rgb(184, 183, 183)">
+    </section>
+    <!-- About Page -->
+    <section class="about" id="aboutPge">
+        
+        <h1 class="h-abt">About us</h1>
+        <div class="circle-container">
+            <div class="cover1"><div class="circle1"></div></div>
+           <div class="cover2"><div class="circle2"></div></div> 
+           <div class="cover3"><div class="circle3"></div></div> 
+        </div>
+        <div class="box-container">
+            <div class="box-cover1"><div class="box1"><h1>Photographer</h1><br><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, repudiandae.</p></div></div>
+            <div class="box-cover2"><div class="box2"><h1>Videographer</h1><br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quisquam.</p></div></div>
+            <div class="box-cover3"><div class="box3"><h1>Editor</h1><br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quisquam.</p></div></div>
+        </div>
+    </section>
+    <footer></footer>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function () {
+            navBar = document.querySelector(".navbar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+
+</body>
+
+</html>
